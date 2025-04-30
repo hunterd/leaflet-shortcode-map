@@ -1,0 +1,32 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Leaflet Shortcode Map\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-29 23:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.2; wp-6.8\n"
+"X-Domain: leaflet-shortcode-map"
+
+#. Description of the plugin
+msgid ""
+"Adds a \"Map\" CPT with admin geo UI, infinite marker repeater (name, "
+"subtitle, address, Dashicon or custom image icon, color), bulk import, "
+"global icon/color settings, and a [ma_carte id=\"...\"] shortcode."
+msgstr ""
+
+#. Author of the plugin
+msgid "ChatGPT & You"
+msgstr ""
+
+#. Name of the plugin
+msgid "Leaflet Shortcode Map"
+msgstr ""

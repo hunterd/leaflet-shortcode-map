@@ -1,0 +1,207 @@
+/* admin.css for leaflet_shortcode_map */
+
+/* Main containers for meta box sections */
+.lsm-meta-section {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+/* Section titles */
+.lsm-meta-section h4 {
+  margin-top: 0;
+  font-size: 16px;
+  color: #333;
+  border-bottom: 1px solid #eee; /* Lighter border */
+  padding-bottom: 8px;
+  margin-bottom: 15px; /* More space below title */
+}
+
+/* Field labels */
+.lsm-meta-section label {
+  display: inline-block;
+  width: 120px; /* Increased width for longer labels */
+  font-weight: bold;
+  margin-right: 5px;
+  vertical-align: middle; /* Align labels better */
+}
+
+/* Input fields general styling */
+.lsm-meta-section input[type="text"],
+.lsm-meta-section input[type="number"],
+.lsm-meta-section select,
+.lsm-meta-section textarea {
+  margin-bottom: 8px;
+  vertical-align: middle; /* Align inputs */
+}
+
+/* Specific widths for center fields */
+#lsm_center_lat, #lsm_center_lon { width: 15%; }
+#lsm_center_zoom { width: 8%; }
+
+/* Marker row container */
+.lsm-marker {
+  position: relative;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 15px; /* Slightly more padding */
+  margin-bottom: 15px;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+}
+
+/* Paragraph spacing within marker row */
+.lsm-marker p {
+  margin: 10px 0; /* Consistent spacing */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Vertically align items in the paragraph */
+}
+
+.lsm-marker p label {
+   flex-shrink: 0; /* Prevent label from shrinking */
+}
+
+.lsm-marker p input[type="text"],
+.lsm-marker p select {
+    flex-grow: 1; /* Allow inputs to take available space */
+    margin-right: 10px; /* Space between input and next element */
+}
+.lsm-marker p input[name$="[lat]"],
+.lsm-marker p input[name$="[lon]"] {
+    flex-grow: 0; /* Don't grow lat/lon */
+    width: 18%; /* Specific width for lat/lon */
+}
+.lsm-marker p .button {
+    margin-left: auto; /* Push buttons to the right */
+    flex-shrink: 0;
+}
+
+
+/* Remove marker button (cross) */
+.lsm-remove-marker {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #dc3232;
+  color: #fff;
+  font-weight: bold;
+  width: 22px;
+  height: 22px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-size: 16px;
+}
+
+.lsm-remove-marker:hover {
+  background: #a22020;
+}
+
+/* Geocode button */
+.lsm-geocode {
+  margin-left: 8px;
+}
+
+/* Add marker button */
+#lsm_add_marker {
+  margin-top: 10px;
+}
+#lsm_add_marker .dashicons {
+    margin-right: 4px; /* Space between icon and text */
+}
+
+
+/* Responsive improvements */
+@media (max-width: 782px) { /* Adjust breakpoint if needed */
+  .lsm-meta-section label {
+    display: block; /* Stack labels above inputs */
+    width: auto;
+    margin-bottom: 4px;
+  }
+  .lsm-meta-section input[type="text"],
+  .lsm-meta-section input[type="number"],
+  .lsm-meta-section select,
+  .lsm-meta-section textarea {
+    width: 100% !important; /* Make inputs full width */
+    margin-right: 0; /* Remove right margin */
+  }
+   .lsm-marker p {
+       flex-direction: column; /* Stack elements vertically */
+       align-items: flex-start; /* Align items to the start */
+   }
+   .lsm-marker p .button {
+       margin-left: 0; /* Reset button margin */
+       margin-top: 5px; /* Add space above button */
+   }
+   #lsm_center_lat, #lsm_center_lon, #lsm_center_zoom {
+       width: 100% !important;
+   }
+}
+
+/* Visual feedback for geocoding in progress */
+.lsm-geocode[disabled] {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+/* Icon preview (Dashicon) */
+.lsm-icon-preview {
+  display: inline-block;
+  font-size: 24px;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+/* Custom icon preview (Image) */
+.lsm-custom-icon-preview {
+    max-height: 30px;
+    vertical-align: middle;
+    margin-left: 8px;
+    border: 1px solid #eee; /* Add subtle border */
+}
+.lsm-remove-custom-icon {
+    vertical-align: middle;
+}
+
+
+/* Bulk import section styling */
+.lsm-bulk {
+  background: #eef; /* Light blue background */
+  border: 1px dashed #99c;
+  padding: 15px;
+}
+.lsm-bulk code {
+  background: #f4f4f4;
+  padding: 2px 4px;
+  font-family: monospace;
+  display: inline-block; /* Prevent wrapping */
+  margin-top: 4px;
+}
+.lsm-bulk small {
+    color: #c00; /* Red warning color */
+}
+
+/* Global settings section */
+.lsm-global {
+    background: #f0fff0; /* Light green background */
+    border-color: #9c9;
+}
+#lsm_global_preview {
+    font-size: 24px; /* Match marker preview size */
+}
+#lsm_global_custom_icon_preview {
+    /* Uses same styles as .lsm-custom-icon-preview */
+}
+
+/* Color Picker adjustments */
+.wp-picker-container .wp-color-result.button {
+    margin: 0 6px 6px 0; /* Adjust margins */
+}
+.wp-picker-container {
+    display: inline-block; /* Align better with labels */
+    vertical-align: middle;
+}
