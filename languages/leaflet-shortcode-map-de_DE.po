@@ -15,35 +15,35 @@ msgstr ""
 "X-Loco-Version: 2.7.2; wp-6.8\n"
 "X-Domain: leaflet-shortcode-map"
 
-#: leaflet_shortcode_map.php:91
+#: leaflet-shortcode-map.php:91
 msgid "-- Select --"
 msgstr "-- Auswählen --"
 
-#: leaflet_shortcode_map.php:292
+#: leaflet-shortcode-map.php:292
 msgid "Add Marker"
 msgstr "Marker hinzufügen"
 
-#: leaflet_shortcode_map.php:19
+#: leaflet-shortcode-map.php:19
 msgid "Add New Map"
 msgstr "Neue Karte hinzufügen"
 
-#: leaflet_shortcode_map.php:358
+#: leaflet-shortcode-map.php:358
 msgid "Address cannot be empty."
 msgstr "Adresse darf nicht leer sein."
 
-#: leaflet_shortcode_map.php:367
+#: leaflet-shortcode-map.php:367
 msgid "Address not found or geocoding service error."
 msgstr "Adresse nicht gefunden oder Fehler beim Geokodierungsdienst."
 
-#: leaflet_shortcode_map.php:238
+#: leaflet-shortcode-map.php:238
 msgid "Address or GPS Coordinates"
 msgstr "Adresse oder GPS-Koordinaten"
 
-#: leaflet_shortcode_map.php:114
+#: leaflet-shortcode-map.php:114
 msgid "Address or Place (e.g., Paris, France)"
 msgstr "Adresse oder Ort (z.B. Paris, Frankreich)"
 
-#: leaflet_shortcode_map.php:234
+#: leaflet-shortcode-map.php:234
 msgid "Address:"
 msgstr "Adresse:"
 
@@ -58,51 +58,51 @@ msgstr ""
 "Farbe), Massenimport, globalen Symbol-/Farbeinstellungen und einem "
 "[ma_carte id=\"...\"] Shortcode hinzu."
 
-#: leaflet_shortcode_map.php:21
+#: leaflet-shortcode-map.php:21
 msgid "All Maps"
 msgstr "Alle Karten"
 
-#: leaflet_shortcode_map.php:184
+#: leaflet-shortcode-map.php:184
 msgid "Apply to All Markers"
 msgstr "Auf alle Marker anwenden"
 
-#: leaflet_shortcode_map.php:54
+#: leaflet-shortcode-map.php:54
 msgid "Are you sure you want to remove this marker?"
 msgstr "Sind Sie sicher, dass Sie diesen Marker entfernen möchten?"
 
-#: leaflet_shortcode_map.php:145
+#: leaflet-shortcode-map.php:145
 msgid "Bulk Import Markers"
 msgstr "Marker-Massenimport"
 
-#: leaflet_shortcode_map.php:48
+#: leaflet-shortcode-map.php:48
 msgid "Cannot add marker: unable to clone existing marker."
 msgstr "Marker kann nicht hinzugefügt werden: Vorhandener Marker kann nicht geklont werden."
 
-#: leaflet_shortcode_map.php:51
+#: leaflet-shortcode-map.php:51
 msgid "Choose a Custom Icon"
 msgstr "Benutzerdefiniertes Symbol auswählen"
 
-#: leaflet_shortcode_map.php:52
+#: leaflet-shortcode-map.php:52
 msgid "Choose a Global Custom Icon"
 msgstr "Globales benutzerdefiniertes Symbol auswählen"
 
-#: leaflet_shortcode_map.php:179
+#: leaflet-shortcode-map.php:179
 msgid "Choose Global Image"
 msgstr "Globales Bild auswählen"
 
-#: leaflet_shortcode_map.php:281
+#: leaflet-shortcode-map.php:281
 msgid "Choose Image"
 msgstr "Bild auswählen"
 
-#: leaflet_shortcode_map.php:269
+#: leaflet-shortcode-map.php:269
 msgid "Color:"
 msgstr "Farbe:"
 
-#: leaflet_shortcode_map.php:276
+#: leaflet-shortcode-map.php:276
 msgid "Custom Icon:"
 msgstr "Benutzerdefiniertes Symbol:"
 
-#: leaflet_shortcode_map.php:257
+#: leaflet-shortcode-map.php:257
 msgid "Dashicon:"
 msgstr "Dashicon:"
 
@@ -110,60 +110,60 @@ msgstr "Dashicon:"
 msgid "David Mussard"
 msgstr "David Mussard" # Keep author name as is
 
-#: leaflet_shortcode_map.php:20
+#: leaflet-shortcode-map.php:20
 msgid "Edit Map"
 msgstr "Karte bearbeiten"
 
-#: leaflet_shortcode_map.php:49
+#: leaflet-shortcode-map.php:49
 msgid "Error: Cannot find a marker to clone. Please reload the page."
 msgstr "Fehler: Kein Marker zum Klonen gefunden. Bitte laden Sie die Seite neu."
 
-#: leaflet_shortcode_map.php:46 leaflet_shortcode_map.php:117
-#: leaflet_shortcode_map.php:240
+#: leaflet-shortcode-map.php:46 leaflet-shortcode-map.php:117
+#: leaflet-shortcode-map.php:240
 msgid "Geocode"
 msgstr "Geokodieren"
 
-#: leaflet_shortcode_map.php:47
+#: leaflet-shortcode-map.php:47
 msgid "Geocoding failed:"
 msgstr "Geokodierung fehlgeschlagen:"
 
-#: leaflet_shortcode_map.php:45
+#: leaflet-shortcode-map.php:45
 msgid "Geocoding..."
 msgstr "Geokodierung läuft..."
 
-#: leaflet_shortcode_map.php:173
+#: leaflet-shortcode-map.php:173
 msgid "Global Color:"
 msgstr "Globale Farbe:"
 
-#: leaflet_shortcode_map.php:177
+#: leaflet-shortcode-map.php:177
 msgid "Global Custom Icon:"
 msgstr "Globales benutzerdefiniertes Symbol:"
 
-#: leaflet_shortcode_map.php:164
+#: leaflet-shortcode-map.php:164
 msgid "Global Dashicon:"
 msgstr "Globales Dashicon:"
 
-#: leaflet_shortcode_map.php:162
+#: leaflet-shortcode-map.php:162
 msgid "Global Icon & Color"
 msgstr "Globales Symbol & Farbe"
 
-#: leaflet_shortcode_map.php:95
+#: leaflet-shortcode-map.php:95
 msgid "Home"
 msgstr "Startseite"
 
-#: leaflet_shortcode_map.php:155
+#: leaflet-shortcode-map.php:155
 msgid "Import Markers"
 msgstr "Marker importieren"
 
-#: leaflet_shortcode_map.php:443
+#: leaflet-shortcode-map.php:443
 msgid "Invalid Map ID (%d) or Map not published."
 msgstr "Ungültige Karten-ID (%d) oder Karte nicht veröffentlicht."
 
-#: leaflet_shortcode_map.php:120 leaflet_shortcode_map.php:243
+#: leaflet-shortcode-map.php:120 leaflet-shortcode-map.php:243
 msgid "Lat:"
 msgstr "Lat:"
 
-#: leaflet_shortcode_map.php:124 leaflet_shortcode_map.php:246
+#: leaflet-shortcode-map.php:124 leaflet-shortcode-map.php:246
 msgid "Latitude"
 msgstr "Breitengrad"
 
@@ -171,48 +171,48 @@ msgstr "Breitengrad"
 msgid "Leaflet Shortcode Map"
 msgstr "Leaflet Shortcode Map" # Keep plugin name as is, or translate if desired
 
-#: leaflet_shortcode_map.php:512
+#: leaflet-shortcode-map.php:512
 msgid "Loading map..."
 msgstr "Karte wird geladen..."
 
-#: leaflet_shortcode_map.php:93
+#: leaflet-shortcode-map.php:93
 msgid "Location Alt"
 msgstr "Standort Alt"
 
-#: leaflet_shortcode_map.php:92
+#: leaflet-shortcode-map.php:92
 msgid "Location Pin"
 msgstr "Standort-Pin"
 
-#: leaflet_shortcode_map.php:127 leaflet_shortcode_map.php:249
+#: leaflet-shortcode-map.php:127 leaflet-shortcode-map.php:249
 msgid "Lon:"
 msgstr "Lon:"
 
-#: leaflet_shortcode_map.php:131 leaflet_shortcode_map.php:252
+#: leaflet-shortcode-map.php:131 leaflet-shortcode-map.php:252
 msgid "Longitude"
 msgstr "Längengrad"
 
-#: leaflet_shortcode_map.php:18
+#: leaflet-shortcode-map.php:18
 msgid "Map"
 msgstr "Karte"
 
-#: leaflet_shortcode_map.php:109
+#: leaflet-shortcode-map.php:109
 msgid "Map Center"
 msgstr "Kartenzentrum"
 
 #. Changed ID slightly
-#: leaflet_shortcode_map.php:71
+#: leaflet-shortcode-map.php:71
 msgid "Map Settings"
 msgstr "Karteneinstellungen"
 
-#: leaflet_shortcode_map.php:17
+#: leaflet-shortcode-map.php:17
 msgid "Maps"
 msgstr "Karten"
 
-#: leaflet_shortcode_map.php:97
+#: leaflet-shortcode-map.php:97
 msgid "Marker"
 msgstr "Marker"
 
-#: leaflet_shortcode_map.php:150
+#: leaflet-shortcode-map.php:150
 msgid ""
 "Marker A|Subtitle A|1 Infinite Loop, Cupertino|37.3318|-122.0312|dashicons-"
 "location-alt|#ff0000"
@@ -220,75 +220,75 @@ msgstr ""
 "Marker A|Untertitel A|1 Infinite Loop, Cupertino|37.3318|-122.0312|dashicons-"
 "location-alt|#ff0000" # Example format, keep structure
 
-#: leaflet_shortcode_map.php:223
+#: leaflet-shortcode-map.php:223
 msgid "Marker Title"
 msgstr "Marker-Titel"
 
-#: leaflet_shortcode_map.php:202
+#: leaflet-shortcode-map.php:202
 msgid "Markers"
 msgstr "Marker"
 
-#: leaflet_shortcode_map.php:220
+#: leaflet-shortcode-map.php:220
 msgid "Name:"
 msgstr "Name:"
 
-#: leaflet_shortcode_map.php:147
+#: leaflet-shortcode-map.php:147
 msgid "Name|Subtitle|Address|Lat|Lon|DashiconClass|ColorHex"
 msgstr "Name|Untertitel|Adresse|Lat|Lon|DashiconKlasse|FarbHex" # Format description
 
-#: leaflet_shortcode_map.php:146
+#: leaflet-shortcode-map.php:146
 msgid "One line per marker – format:"
 msgstr "Eine Zeile pro Marker – Format:"
 
-#: leaflet_shortcode_map.php:230
+#: leaflet-shortcode-map.php:230
 msgid "Optional Subtitle"
 msgstr "Optionaler Untertitel"
 
-#: leaflet_shortcode_map.php:186
+#: leaflet-shortcode-map.php:186
 msgid "Priority is given to the custom icon if set."
 msgstr "Das benutzerdefinierte Symbol hat Priorität, falls festgelegt."
 
-#: leaflet_shortcode_map.php:285
+#: leaflet-shortcode-map.php:285
 msgid "Remove"
 msgstr "Entfernen"
 
-#: leaflet_shortcode_map.php:217
+#: leaflet-shortcode-map.php:217
 msgid "Remove Marker"
 msgstr "Marker entfernen"
 
-#: leaflet_shortcode_map.php:94
+#: leaflet-shortcode-map.php:94
 msgid "Site"
 msgstr "Website"
 
-#: leaflet_shortcode_map.php:96
+#: leaflet-shortcode-map.php:96
 msgid "Status"
 msgstr "Status"
 
-#: leaflet_shortcode_map.php:227
+#: leaflet-shortcode-map.php:227
 msgid "Subtitle:"
 msgstr "Untertitel:"
 
-#: leaflet_shortcode_map.php:50
+#: leaflet-shortcode-map.php:50
 msgid ""
 "The last marker cannot be deleted. Its fields have been cleared instead."
 msgstr "Der letzte Marker kann nicht gelöscht werden. Seine Felder wurden stattdessen geleert."
 
-#: leaflet_shortcode_map.php:55
+#: leaflet-shortcode-map.php:55
 msgid "This will replace all current markers. Are you sure?"
 msgstr "Dies ersetzt alle aktuellen Marker. Sind Sie sicher?"
 
-#: leaflet_shortcode_map.php:53
+#: leaflet-shortcode-map.php:53
 msgid "Use This Image"
 msgstr "Dieses Bild verwenden"
 
-#: leaflet_shortcode_map.php:157
+#: leaflet-shortcode-map.php:157
 msgid "Warning: This will replace all current markers."
 msgstr "Warnung: Dies ersetzt alle aktuellen Marker."
 
-#: leaflet_shortcode_map.php:134
+#: leaflet-shortcode-map.php:134
 msgid "Zoom:"
 msgstr "Zoom:"
 
-#: leaflet_shortcode_map.php:628
+#: leaflet-shortcode-map.php:628
 msgid "Donate"
 msgstr "Spenden"
